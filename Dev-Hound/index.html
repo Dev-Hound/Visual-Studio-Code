@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <title>Dev-Hound</title>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style/main.css">
+
+        <!--Iconos: Font Awesome-->
+        <script src="https://kit.fontawesome.com/958326368a.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!--Header Fijo-->
+        <header class="Header">
+
+            <div class="Container Logo-Nav-Cont">
+
+                <!--Img Logo-->
+                <a href="#" class="Logo"><img src="Assets/Img/sabueso.jpg" alt="Logo" id="Logo"></a>
+
+                <!--Menu de Navegacion-->
+                <nav class="Navigation"> 
+                    <ul>
+                        <li><a href="#Quien-Soy" role="button" aria-pressed="true">¿Quien soy?</a></li>
+                        <li><a href="#Servicios" role="button" aria-pressed="true">Servicios</a></li>
+                        <li><a href="#Portafolio" role="button" aria-pressed="true">Portafolio</a></li>
+                        <li><a href="#Contacto" role="button" aria-pressed="true">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--Informacion dentro de la pagina-->
+        <main class="Container">
+
+            <section id="Quien-Soy">
+                <h1>¿Quien soy?</h1>
+                <p>Mi nombre es Juan Bastidas, tengo 20 años y estudio Ing. en Sistemas, elegi el nombre de "Dev-Hound" como nombre de desarrollador. Hace poco empece a aprender programacion con la ayuda y tutela de Jorge Bastidas el cual no esta enseñando Html, Css y JavaScript, este ultimo lenguaje me cuesta mas que los otros dos ya que todavia no he visto tantos ejemplos de JS como de Html y Css </p>
+            </section>
+
+            <section id="Servicios">
+                <h1>Servicios</h1>
+                <p>Actualmente mis servicios estan limitados a html, css y js a nivel basico, que en pocas palabras es diseño y creacion de paginas web... Por favor que no tengan Slide Show</p>
+            </section>
+
+            <section id="Portafolio">
+                <h1>Portafolio</h1>
+                <p>Mi portafolio se basa en cursos de CodeCademy en los ya mencionados lenguajes de programacion</p>
+                <div class="Slider-Container">
+                    <div class="Slider">
+                    
+                        <!--Img del Slider-->
+                        <div class="Img">
+                            <div class="Slide Uno" id="SL1"><img src="Assets/Img/HTML.png" alt="Img curso Html" class="Img"></div>
+                            <div class="Slide Dos" id="SL2"><img src="Assets/Img/CSS.png" alt="Img curso Css" class="Img"></div>
+                            <div class="Slide Tres" id="SL3"><img src="Assets/Img/JS.png" alt="Img curso JavaScript" class="Img"></div>
+                        </div>
+                    </div>
+
+                    <ul class="Menu">
+                        <li>
+                            <a href="#SL1"></a>
+                        </li>
+                        <li>
+                            <a href="#SL2"></a>
+                        </li>
+                        <li>
+                            <a href="#SL3"></a>
+                        </li>
+                    </ul>
+                  </div>
+            </section>
+
+            <section id="Contacto">
+                <h1>Contacto</h1>
+                <div>Para contactarme estan los siguientes metodos:
+                    <ol>
+                        <li>Numero de Telefono: +58 414-8023-012</li>
+                        <li>Correo Electronico: juansbastidas@gmail.com</li>
+                        <li>GitHub: Dev-Hound</li>
+                    </ol>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="Footer">
+            <div class="Container">
+                <p>Dev-Hound | Distrito Capital, Republica Bolivariana de Venezuela</p>
+                <p>Quinta Omaira, Calle el Limon, El Cafetal</p>
+                <div class="Social-Media">
+                    <button id="Instagram"><i class="fa-brands fa-instagram"></i></button> <!--https://www.instagram.com/juancho90100/-->
+                    <button id="Facebook" ><i class="fa-brands fa-facebook"></i></button> <!--https://www.facebook.com/juan.bastidas.315/-->
+                    <button id="Twitter"><i class="fa-brands fa-twitter"></i></button>
+                </div>
+            </div>
+        </footer>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>

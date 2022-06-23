@@ -1,0 +1,162 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    overflow-x: hidden;
+    font-size: medium;
+}
+
+p {
+    margin-bottom: 1.1em;
+    margin-top: 0;
+}
+
+/*Inicio Header Fijo*/
+.Container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.Header {
+    background: white;
+    padding: 0.3em 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    padding: 0.2em 0;
+    z-index: 10;
+}
+
+main {
+    padding-top: 6em;
+}
+
+.Header a {
+    color: black;
+    text-decoration: none;
+}
+
+.Logo-Nav-Cont {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#Logo {
+    height: 80px;
+}
+
+.Navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navigation ul li {
+    display: inline-block;
+}
+
+.Navigation ul li a {
+    display: block;
+    padding: 0.5em 1.2em;
+    font-size: large;
+    font-weight: 700;
+}
+
+.Navigation ul li a:hover {
+    background-color: lightgray;
+    transition: 0.35s linear;
+    border-radius: 6px;
+}
+/*Final Header Fijo*/
+
+footer {
+    background: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+ol {
+    list-style: circle;
+}
+
+section {
+    margin-top: 2em
+}
+
+h1 {
+    margin-bottom: 1%;
+}
+
+/*Slider*/
+.Slider-Container {
+    background: grey;
+    text-align: center;
+}
+
+.Slider {
+    max-width: 790px;
+    max-height: 300px;
+}
+
+.Slider .Img {
+    position: relative;
+    max-width: 750px;
+    max-height: 390px;
+    padding-left: 3%;
+    background-color: grey;
+}
+
+.Slider .Img .Slide {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: grey;
+    transition: opacity 0.5s;
+}
+
+.Slider .Img .Slide:first-child {
+    opacity: 1;
+}
+
+.Slider .Img .Slide:target {
+    opacity: 1;
+}
+
+.Menu {
+    text-align: center;
+    position: relative;
+    padding-top: 325px;
+}
+
+.Menu li {
+    margin: 1.5em;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a {
+    text-decoration: none;
+    background-color: grey;
+    padding: 8px;
+    width: 2.5px;
+    height: 2.5px;
+    font-size: 0px;
+    border-radius: 100%;
+}
+
+.Menu li a:hover {
+    background-color: black;
+    transition: 0.5s linear;
+}
